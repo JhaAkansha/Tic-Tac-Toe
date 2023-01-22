@@ -1,0 +1,59 @@
+body {
+    font: 60px "Lucida handwriting", Futura, cursive;
+    margin-top: 60px;
+    text-align:center;
+    background: rgb(64,71,240);
+    background: radial-gradient(circle, rgba(64,71,240,1) 0%, rgba(144,16,209,0.4247898988697041) 100%);
+
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  .board-row {
+    margin-left: 39%;
+    margin-right: 30%;
+  }
+  .square {
+    background: rgb(103, 181, 209);
+    border: 4px solid rgb(2, 12, 67);
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .square:focus {
+    outline: none;
+    
+  }
+  
+  .kbd-navigation .square:focus {
+    background: rgb(77, 204, 31);
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
